@@ -1,0 +1,63 @@
+body {
+    background: #000000;
+    color: lightgray;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+#wrapper {
+    width: 900px;
+    margin: auto;
+}
+#sentence {
+    width: 100%;
+    margin: 50px;
+    text-align: center;
+    font-size: 48px;
+}
+#hang {
+    float: left;
+    width: 50%;
+    text-align: center;
+    min-height: 280px;
+}
+#letters {
+    float: left;
+    width: 50%;
+    text-align: center;
+    min-height: 280px;
+}
+
+.letter {
+    height: 23px;
+    width: 7%;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border: solid 3px gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.letter:hover {
+    background: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+.goodLt {
+    background: #003300;
+    color: #00c000;
+    border: 3px solid #00c000;
+    cursor: default;
+}
+.badLt {
+    background: #330000;
+    color: #c00000;
+    border: 3px solid #c00000;
+    cursor: default;
+}
+.reset {
+    cursor: pointer;
+    color: #00c000;
+    font-size: 30px;
+}
